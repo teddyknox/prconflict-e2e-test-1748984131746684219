@@ -1,6 +1,7 @@
 package main
 
 type Config struct {
-	Port     int
+	Port     int    
 	Database string
+	Timeout  int
 }
